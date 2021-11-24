@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "namespace"
+version = "0.1.0"
+description = ""
+authors = ["Arun Babu Neelicattu <arun.neelicattu@gmail.com>"]
+readme = "README.md"
+packages = [{include = "namespace", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+namespace-core = {path = "../namespace-core"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

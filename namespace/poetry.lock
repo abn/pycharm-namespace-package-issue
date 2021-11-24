@@ -1,0 +1,20 @@
+[[package]]
+name = "namespace-core"
+version = "0.1.0"
+description = ""
+category = "main"
+optional = false
+python-versions = "^3.10"
+develop = false
+
+[package.source]
+type = "directory"
+url = "../namespace-core"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.10"
+content-hash = "a432bb3b38aa8aa44a7940739d735a703c2ea5537a8b96451e7a00be5b769206"
+
+[metadata.files]
+namespace-core = []
