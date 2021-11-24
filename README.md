@@ -18,10 +18,10 @@ Once opened do the following.
 2. Mark `src` as source directory for the project.
 
 ### Expected behaviour
-The file at (`namespace/src/namespace/hello.py`)[namespace/src/namespace/hello.py] should not have any inspection errors.
+The file at [`namespace/src/namespace/hello.py`](namespace/src/namespace/hello.py) should not have any inspection errors.
 
 ### Actual behaviour
-The file (`namespace/src/namespace/hello.py`)[namespace/src/namespace/hello.py] has inspection errors, like shown here.
+The file [`namespace/src/namespace/hello.py`](namespace/src/namespace/hello.py) has inspection errors, like shown here.
 
 ```
 Cannot find reference 'core' in '__init__.py'
